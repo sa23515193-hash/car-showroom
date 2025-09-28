@@ -18,7 +18,7 @@ export const CARS: Car[] = [
     year: 2022,
     price: "$450,000",
     image:
-      "/images/lam.jpg.jpg",
+     process.env.PUBLIC_URL +  "/images/lam.jpg.jpg",
     kms: "1200 km",
     color: "Yellow",
     description: "A high-performance V12 supercar with cutting-edge aerodynamics."
@@ -30,7 +30,7 @@ export const CARS: Car[] = [
     year: 2021,
     price: "$350,000",
     image:
-      "/images/frar.jpg.jpg",
+      process.env.PUBLIC_URL +"/images/frar.jpg.jpg",
     kms: "2500 km",
     color: "Red",
     description: "A sports car designed for track and road with thrilling performance."
@@ -42,7 +42,7 @@ export const CARS: Car[] = [
     year: 2020,
     price: "$120,000",
     image:
-      "/images/por.jpg.jpg",
+      process.env.PUBLIC_URL +"/images/por.jpg.jpg",
     kms: "8000 km",
     color: "Black",
     description: "Classic Porsche handling and timeless design."
@@ -54,7 +54,7 @@ export const CARS: Car[] = [
     brand: "Toyota",
     year: 2023,
     price: "$90,000",
-    image: "/images/toy.jpg.jpg",   // ✅ aapki Toyota image public/images me honi chahiye
+    image: process.env.PUBLIC_URL +"/images/toy.jpg.jpg",   // ✅ aapki Toyota image public/images me honi chahiye
     kms: "500 km",
     color: "White",
     description: "A rugged and reliable SUV, perfect for both city and off-road adventures."
@@ -66,7 +66,7 @@ export const CARS: Car[] = [
     brand: "Audi",
     year: 2022,
     price: "$170,000",
-    image: "/images/audi.jpg.jpg",
+    image: process.env.PUBLIC_URL +"/images/audi.jpg.jpg",
     kms: "800 km",
     color: "Red",
     description: "A sleek and sporty supercar with Quattro all-wheel drive."
@@ -77,7 +77,7 @@ export const CARS: Car[] = [
     brand: "BMW",
     year: 2023,
     price: "$110,000",
-    image: "/images/bmw.jpg.jpg",
+    image: process.env.PUBLIC_URL +"/images/bmw.jpg.jpg",
     kms: "600 km",
     color: "Blue",
     description: "A high-performance luxury sedan combining speed and comfort."
@@ -88,7 +88,7 @@ export const CARS: Car[] = [
     brand: "Ford",
     year: 2022,
     price: "$85,000",
-    image: "/images/for.jpg.jpg",
+    image: process.env.PUBLIC_URL +"/images/for.jpg.jpg",
     kms: "700 km",
     color: "Black",
     description: "An iconic American muscle car with thrilling performance."
@@ -99,7 +99,7 @@ export const CARS: Car[] = [
     brand: "Mercedes",
     year: 2023,
     price: "$160,000",
-    image: "/images/mer.jpg.jpg",
+    image: process.env.PUBLIC_URL +"/images/mer.jpg.jpg",
     kms: "400 km",
     color: "Silver",
     description: "A luxurious SUV with exceptional power and off-road capabilities."
@@ -110,7 +110,7 @@ export const CARS: Car[] = [
     brand: "Chevrolet",
     year: 2022,
     price: "$70,000",
-    image: "/images/char.jpg.jpg",
+    image: process.env.PUBLIC_URL +"/images/char.jpg.jpg",
     kms: "900 km",
     color: "Yellow",
     description: "A stylish muscle car known for speed, design, and performance."
@@ -121,7 +121,7 @@ export const CARS: Car[] = [
   brand: "Maserati",
   year: 2023,
   price: "$120,000",
-  image: "/images/car.jpg.jpg",   // ✅ public/images folder me ye image honi chahiye
+  image: process.env.PUBLIC_URL +"/images/car.jpg.jpg",   // ✅ public/images folder me ye image honi chahiye
   kms: "400 km",
   color: "Blue",
   description: "A luxury SUV combining Italian elegance, performance, and comfort."

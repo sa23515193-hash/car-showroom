@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 
 const Home: React.FC = () => {
  const brands = [
-    { name: "Tesla", logo: "/images/tesb.jpg.jpg" },
-    { name: "Lamborghini", logo: "/images/lamb.jpg.jpg" },
-    { name: "Ferrari", logo: "/images/ferb.jpg.jpg" },
-    { name: "Audi", logo: "/images/audib.jpg.jpg" },
+    { name: "Tesla", logo: process.env.PUBLIC_URL + "/images/tesb.jpg.jpg" },
+    { name: "Lamborghini", logo: process.env.PUBLIC_URL +"/images/lamb.jpg.jpg" },
+    { name: "Ferrari", logo: process.env.PUBLIC_URL + "/images/ferb.jpg.jpg" },
+    { name: "Audi", logo:process.env.PUBLIC_URL + "/images/audib.jpg.jpg" },
   ];
 
   const services = [
@@ -18,9 +18,9 @@ const Home: React.FC = () => {
     { title: "Luxury Experience", description: "Personalized support to enhance your buying experience." },
   ];
 const testimonials = [
-    { name: "John Doe", text: "Amazing showroom! Found my dream car with excellent service.", image: "/images/john.jpg.jpg" },
-    { name: "Sarah Smith", text: "Highly recommend! Luxury cars at their best.", image: "/images/sar.jpg.jpg" },
-    { name: "Mike Johnson", text: "Professional staff and fantastic options for every brand.", image: "/images/mike.jpg.jpg" },
+    { name: "John Doe", text: "Amazing showroom! Found my dream car with excellent service.", image: process.env.PUBLIC_URL + "/images/john.jpg.jpg" },
+    { name: "Sarah Smith", text: "Highly recommend! Luxury cars at their best.", image: process.env.PUBLIC_URL + "/images/sar.jpg.jpg" },
+    { name: "Mike Johnson", text: "Professional staff and fantastic options for every brand.", image: process.env.PUBLIC_URL + "/images/mike.jpg.jpg" },
   ];
 
   
@@ -131,6 +131,12 @@ const testimonials = [
             <a href="#" className="hover:text-white">Facebook</a>
             <a href="#" className="hover:text-white">Instagram</a>
             <a href="#" className="hover:text-white">Twitter</a>
+            <a href="#" className="hover:text-white">Github</a>
+            <a href="#" className="hover:text-white">linkedin</a>
+             <a href="#" className="hover:text-white">fiver</a>
+              <a href="#" className="hover:text-white">upwork</a>
+
+
           </div>
         </div>
       </footer>

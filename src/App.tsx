@@ -22,6 +22,7 @@ const App: React.FC = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/admin" element={<Admin />} />
+          {/* hashrouter,routers*/}
         </Routes>
       </main>
       <footer className="bg-gray-900 text-gray-300 text-center py-6">
