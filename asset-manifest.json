@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sa23515193-hash/car-showroom.git/static/css/main.92333294.css",
+    "main.js": "/sa23515193-hash/car-showroom.git/static/js/main.78cf9a42.js",
+    "index.html": "/sa23515193-hash/car-showroom.git/index.html",
+    "main.92333294.css.map": "/sa23515193-hash/car-showroom.git/static/css/main.92333294.css.map",
+    "main.78cf9a42.js.map": "/sa23515193-hash/car-showroom.git/static/js/main.78cf9a42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92333294.css",
+    "static/js/main.78cf9a42.js"
+  ]
+}
